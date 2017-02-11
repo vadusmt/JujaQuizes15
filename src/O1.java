@@ -6,6 +6,7 @@ public class O1 {
 class ParentMessage {
     void call() {
         System.out.println("Parent");
+        System.out.println("Ok");
     }
 }
 class ChildMessage extends ParentMessage {
